@@ -1130,23 +1130,23 @@
 
 
 
-const wait =(operation)=>{
-   return new Promise((res)=>{
-      setTimeout(()=>{
-         res(operation)
-      },3000)
-   })
-}
+// const wait =(operation)=>{
+//    return new Promise((res)=>{
+//       setTimeout(()=>{
+//          res(operation)
+//       },3000)
+//    })
+// }
 
-const getSomeCalculation = async ()=>{
-   console.log("просто сообщение которое означает что функция началась");
-   let fortyFive = 45 
-   console.log("второе сообщение");
-   let getSumOfVar = fortyFive+100
-   console.log("мы получили "+getSumOfVar);
-   // типа очень сложная операция, которая занимает 3 секудны 
-   const result=  await wait (155+getSumOfVar)
-   console.log("наше вычисление ="+result);
-}
-getSomeCalculation()
+// const getSomeCalculation = async ()=>{
+//    console.log("просто сообщение которое означает что функция началась");
+//    let fortyFive = 45 
+//    console.log("второе сообщение");
+//    let getSumOfVar = fortyFive+100
+//    console.log("мы получили "+getSumOfVar);
+//    // типа очень сложная операция, которая занимает 3 секудны 
+//    const result=  await wait (155+getSumOfVar)
+//    console.log("наше вычисление ="+result);
+// }
+// getSomeCalculation()
 
